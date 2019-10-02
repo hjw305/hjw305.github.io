@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Submit a review</title>
+        
+        <meta name="robots" content="noindex">
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+                
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
+        <link rel="stylesheet" href="./css/base.css" type="text/css" media="all">
+        <link rel="stylesheet" href="./css/720_grid.css" type="text/css" media="screen and (min-width: 720px)">
+        <link rel="stylesheet" href="./css/986_grid.css" type="text/css" media="screen and (min-width: 986px)">
+        <link rel="icon" type="image/png" href="./icon.ico" media="screen and (min-width: 720px)">
+        <!--[if lt IE 9 ]><link rel="stylesheet" href="./css/720_grid.css" type="text/css"><![endif]-->
+                                
+        <script language="JavaScript" src="./scripts/gen_validatorv31.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <div class="container", style="min-height: 95vh;">
+            <div class="grid">
+                <h1> <span style="font-weight: bold;">Huw</span>Wells </h1>
+                <h2> Bristol Based Mathematics Tutor </h2>
+                <h4>
+                    huw.wells@gmail.com &#8226; 07891238627 &#8226; Arley Hill BS6 5PJ
+                </h4>
+                
+                <div class="header-grid">
+                    <div class="row" >
+                        <div class="slot-0"><h5><a href="index.html">Home</a></h5></div>
+                        <div class="slot-1"><h5><a href="reviews.html">Reviews</a></h5></div>
+                        <div class="slot-2"><h5><a href="availability.html">Availability</a></h5></div>
+                        <div class="slot-3"><h5><a href="cv.html">CV</a></h5></div>
+                        <div class="slot-4"><h5><a href="prices.html">Prices</a></h5></div>
+                        <div class="slot-5"><h5><a href="printing.html">Printing</a></h5></div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="main-grid">
+                    <div class="spacer", style="height:2em;"></div>
+                        <div class="slot-0-1-2-3-4-5">
+                            <h3>
+                                Submit a review
+                            </h3>
+                            <form method="post" name="myemailform" action="form-to-email.php">
+                                <p>
+                                    <label for='name'>First Name: </label><br>
+                                    <input style="width:100%;" type="text" name="name">
+                                </p>
+                                <p>
+                                    <label for='email'>Rating:</label><br>
+                                    <input style="margin-left: 2em" type="radio" name="rating" value="5"  checked="true"><span style="color: gold"> &#9733;&#9733;&#9733;&#9733;&#9733;</span> (Good)<br>
+                                    <input style="margin-left: 2em" type="radio" name="rating" value="4"><span style="color: gold"> &#9733;&#9733;&#9733;&#9733;</span><br>
+                                    <input style="margin-left: 2em" type="radio" name="rating" value="3"><span style="color: gold"> &#9733;&#9733;&#9733;</span><br>
+                                    <input style="margin-left: 2em" type="radio" name="rating" value="2"><span style="color: gold"> &#9733;&#9733;</span><br>
+                                    <input style="margin-left: 2em" type="radio" name="rating" value="1"><span style="color: gold"> &#9733;</span> (Really bad)<br>
+                                </p>
+                                <p>
+                                    <label for='message'>Review or comments:</label> <br>
+                                    <textarea style="width:100%;" rows="10" cols="50" name="message"></textarea>
+                                </p>
+                                <input type="submit" name='submit' value="submit">
+                            </form>
+                            <script language="JavaScript">
+                                // Code for validating the form
+                                // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                                // for details
+                                var frmvalidator  = new Validator("myemailform");
+                                frmvalidator.addValidation("name","req","Please give a name");
+                                //frmvalidator.addValidation("message","req","You haven't left any comments!");
+                                </script>
+                        </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="spacer", style="height:1em;"></div>
+            <div class="line"></div>
+            <p>
+                &copy; HJ Wells 2019
+            </p>
+        </div>
+    </footer>
+
+</html>
