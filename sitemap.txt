@@ -1,6 +1,6 @@
-//www.wells-tutoring.co.uk/index.html
-//www.wells-tutoring.co.uk/reviews.html
-//www.wells-tutoring.co.uk/availability.html
-//www.wells-tutoring.co.uk/cv.html
-//www.wells-tutoring.co.uk/prices.html
-//www.wells-tutoring.co.uk/printing.html
+https://www.wells-tutoring.co.uk/index.html
+https://www.wells-tutoring.co.uk/reviews.html
+https://www.wells-tutoring.co.uk/availability.html
+https://www.wells-tutoring.co.uk/cv.html
+https://www.wells-tutoring.co.uk/prices.html
+https://www.wells-tutoring.co.uk/printing.html
